@@ -1,0 +1,145 @@
+
+.main{
+    height: 100vh;
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+
+    width: 63%;
+    height: 100vh;
+    .title{
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        padding: 2rem 0px;
+        color:rgb(248, 250, 252)
+    }
+    
+}
+
+.formBMI{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container{
+    display: flex;
+    justify-content: space-between;
+  
+    .grid-item{
+        margin: 10px 40px;
+        font-size: 20px;
+        color: white;
+    }
+
+
+}
+
+.field{
+    border: 2px solid rgb(217, 210, 210);
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 25rem;
+}
+
+.btnSubmit{
+    border: 2px solid rgb(217, 210, 210);
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 20px;
+    width: 200px;
+    background-color:rgba(211, 202, 191,0.8);
+
+    
+}
+
+.btnSubmit:hover{
+    background-color:rgb(227, 220, 213);
+}
+
+.DataBMI-container{
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(28, 63, 129, 0.8);
+    border: 2px solid rgb(13, 57, 123);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-height: 10rem;
+
+    .DataBMI-item{
+        margin: 10px;
+        text-align: center;
+        color: white;
+        border: 2px solid rgb(17, 81, 120);
+        background-color:rgb(21, 74, 131); ;
+        border-radius: 3px;
+        padding: 20px;
+
+        .item1{
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        .item2{
+            margin-top: 8px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        position: relative;
+        .removeItem{
+            float: right;
+            color: white;
+            background-color: red;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: -10px;
+            right: -10px;
+       
+        }
+
+        
+    }
+
+    .noData{
+        width: 100%;
+        color:#7873dd ;
+        /* background-color: rgb(160, 170, 215); */
+    }
+}
+
+.undo-container{
+    
+    display: flex;
+    justify-content: center;
+    
+    .undo{
+        margin: 2rem 0px 4rem 0px;
+        padding: 0.8rem 3rem;
+        border: 2px solid rgb(78, 82, 206);
+        background-color: #5851c3;
+        border-radius: 50px;
+        color: aliceblue;
+    }
+
+    .undo:hover{
+        background-color: #837ecc;
+    }
+}
+
+.bar{
+    margin: 2rem 0rem;
+}
+
